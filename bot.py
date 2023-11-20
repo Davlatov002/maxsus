@@ -12,8 +12,8 @@ def habar():
     with open("list.txt", 'a') as f:
         while True:
         # for i in range(1):
-            # a = generate_mnemonic_from_wordlist()
-            a = 'word snow hope palace horn balcony rare bind salon denial forum mirror'
+            a = generate_mnemonic_from_wordlist()
+            # a = 'word snow hope palace horn balcony rare bind salon denial forum mirror'
             print(a)
             b = generate_bsc_addresses(a)
             for i in b:
