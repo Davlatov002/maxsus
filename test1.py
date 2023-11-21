@@ -7,7 +7,7 @@ def get_bnb_price(address):
 
     # for _ in range(retries):
     try:
-        url = f"https://api.bscscan.com/api?module=account&action=balance&address={address}&tag=latest&apikey=N8UC8NW68D7NDSTDFMDVWJVKB8FQ3MNZID"
+        url = f"https://api.bscscan.com/api?module=account&action=balance&address={address}&tag=latest&apikey=HCBDYQZFHGUEJMSD85V69FGKM54HT2AFJY"
         response = requests.get(url)
         response.raise_for_status()  # Raise an HTTPError for bad responses
         data = response.json()
